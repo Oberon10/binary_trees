@@ -88,6 +88,6 @@ avl_t *avl_search_remove(avl_t **tree, int value);
 avl_t *avl_remove(avl_t *root, int value);
 void create_tree(avl_t **node, int *array, size_t size, int mode);
 avl_t *sorted_array_to_avl(int *array, size_t size);
-
+heap_t *heap_insert(heap_t **root, int value)
 
 #endif /* BINARY_TREES_H */
